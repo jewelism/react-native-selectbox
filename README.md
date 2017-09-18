@@ -1,7 +1,10 @@
 created by kusob
+
 boseokjung@gmail.com
 
+
 import SelectBox from "./selectBox";
+
 
 <SelectBox
 
@@ -13,6 +16,7 @@ import SelectBox from "./selectBox";
     
     // ex) obj={id,:1, name:"boseok"} than selectBoxText="name" (variable name)
 />
+
 
 <SelectBox 
     
@@ -37,6 +41,6 @@ import SelectBox from "./selectBox";
         //some function for onSelect
     
     }}
-    
+
 />
 
