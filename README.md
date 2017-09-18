@@ -2,7 +2,8 @@ created by kusob
 boseokjung@gmail.com
 
 import SelectBox from "./selectBox";
-<SelectBox 
+
+<SelectBox \n
   list={[1,2,3]} //selectBox list, array or object array
   selectBoxText={null}  //if your list is object, selectBoxText's value == something print Variable in the object.
     // ex) obj={id,:1, name:"boseok"} than selectBoxText="name" (variable name)
