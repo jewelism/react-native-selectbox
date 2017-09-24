@@ -42,10 +42,14 @@ import SelectBox from "./selectBox";
         //some function for onSelect
     	
 	this.setType(i);
+
     }}
 
 />
 
+
 setType(i) {
+
         this.setState({ currentTYPE: i });
+
 }
