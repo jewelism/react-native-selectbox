@@ -40,8 +40,12 @@ import SelectBox from "./selectBox";
     onClickBoxFunction={(i)=>{ //i==index
     
         //some function for onSelect
-    
+    	
+	this.setType(i);
     }}
 
 />
 
+setType(i) {
+        this.setState({ currentTYPE: i });
+}
